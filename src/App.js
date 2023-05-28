@@ -21,21 +21,21 @@ function App() {
   console.log("Testing")
   useEffect(() => {
     // // Prevent the function from executing on the first render
-    // if (isFirstRender.current) {
-    //   isFirstRender.current = false; // toggle flag after first render/mounting
-    //   console.log("Testing First REnder")
-    //   return;
-    // }
+    if (isFirstRender.current) {
+      isFirstRender.current = false; // toggle flag after first render/mounting
+      console.log("Testing First REnder")
+      return;
+    }
 
     (async () => {
       try {
         console.log("We reached here")
         // loading the models
-        await faceapi.nets.ssdMobilenetv1.loadFromUri('/models');
-        await faceapi.nets.tinyFaceDetector.loadFromUri('/models');
-        await faceapi.nets.faceLandmark68Net.loadFromUri('/models');
-        await faceapi.nets.faceRecognitionNet.loadFromUri('/models');
-        await faceapi.nets.faceExpressionNet.loadFromUri('/models');
+        await faceapi.nets.ssdMobilenetv1.loadFromUri('https://masego22.github.io/taguroappfm/models');
+        await faceapi.nets.tinyFaceDetector.loadFromUri('https://masego22.github.io/taguroappfm/models');
+        await faceapi.nets.faceLandmark68Net.loadFromUri('https://masego22.github.io/taguroappfm/models');
+        await faceapi.nets.faceRecognitionNet.loadFromUri('https://masego22.github.io/taguroappfm/models');
+        await faceapi.nets.faceExpressionNet.loadFromUri('https://masego22.github.io/taguroappfm/models');
 
         // detect a single face from the ID card image
         const idCardFacedetection = await faceapi.detectSingleFace(idCardRef.current,
