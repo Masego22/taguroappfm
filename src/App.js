@@ -21,11 +21,11 @@ function App() {
   console.log("Testing")
   useEffect(() => {
     // // Prevent the function from executing on the first render
-    if (isFirstRender.current) {
-      isFirstRender.current = false; // toggle flag after first render/mounting
-      console.log("Testing First REnder")
-      return;
-    }
+    // if (isFirstRender.current) {
+    //   isFirstRender.current = false; // toggle flag after first render/mounting
+    //   console.log("Testing First REnder")
+    //   return;
+    // }
 
     (async () => {
       try {
