@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/taguroappfm/static/css/main.a1a81945.css",
-    "main.js": "/taguroappfm/static/js/main.2e33645e.js",
+    "main.js": "/taguroappfm/static/js/main.1e103d37.js",
     "static/media/img2.jpg": "/taguroappfm/static/media/img2.82613f3609d197f6f6fd.jpg",
     "static/media/img3.jpg": "/taguroappfm/static/media/img3.d9a270ff881d84cfc8ba.jpg",
     "index.html": "/taguroappfm/index.html"
   },
   "entrypoints": [
     "static/css/main.a1a81945.css",
-    "static/js/main.2e33645e.js"
+    "static/js/main.1e103d37.js"
   ]
 }
