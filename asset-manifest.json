@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/taguroappfm/static/css/main.a1a81945.css",
-    "main.js": "/taguroappfm/static/js/main.993e14a3.js",
+    "main.js": "/taguroappfm/static/js/main.5b43d369.js",
     "index.html": "/taguroappfm/index.html"
   },
   "entrypoints": [
     "static/css/main.a1a81945.css",
-    "static/js/main.993e14a3.js"
+    "static/js/main.5b43d369.js"
   ]
 }
